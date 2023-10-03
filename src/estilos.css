@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: linear-gradient(40deg, #0d1692, #07b2be);
+  height: 100vh;
+  color: black;
+}
+
+.cuadrado {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 44px;
+  height: 44px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 44px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cuadrado:hover {
+  background-color: #999;
+}
+
+.tabla-fila:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.tabla-fila {
+  margin-left: 45%;
+}
+
+.status {
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.botonDeLado {
+  margin-left: 20px;
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+}
+
+.contador {
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  margin-left: 75vh;
+  margin-right: 75vh;
+  border: 1px solid black;
+  background: linear-gradient(30deg, #12387a, #7224ee);
+  border-radius: 20px;
+  color: white;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.ti {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.victorias {
+  margin-left: 10px;
+  margin-top: 1px;
+}
